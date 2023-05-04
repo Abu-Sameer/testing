@@ -5,7 +5,7 @@ export default function Buttons(props) {
   const setDisplay = props.state;
   return (
     <div className="row">
-      <div className="col-lg-3 mt-4">
+      <div className="d-flex flex-column coll col-lg-3 mt-4">
         <button
           onClick={() =>
             setDisplay(
@@ -13,7 +13,7 @@ export default function Buttons(props) {
             )
           }
           value="="
-          className="btn btn-primary mb-2"
+          className="btn btn-primary mb-2 equal"
           style={{ height: '45%' }}
         >
           =
@@ -33,7 +33,7 @@ export default function Buttons(props) {
           Del
         </button>
       </div>
-      <div className="col-lg-9">
+      <div className="col-lg-9 ">
         <div className="d-flex justify-content-between mt-4">
           <button
             onClick={(e) => setDisplay(display.concat(e.target.value))}
@@ -105,7 +105,7 @@ export default function Buttons(props) {
           <button
             onClick={(e) => setDisplay(display.concat(e.target.value))}
             value="0"
-            className="btn btn-outline-primary col-lg-6"
+            className="btn btn-outline-primary col-lg-6 zero"
           >
             0
           </button>

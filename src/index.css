@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 991px) {
+  .coll {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .coll button {
+    height: 2.5rem !important;
+    margin: 0 !important;
+  }
+
+  .equal {
+    width: 45% !important;
+  }
+
+  .zero {
+    width: 45% !important;
+  }
+}
