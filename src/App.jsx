@@ -1,9 +1,12 @@
-import CalculatorBody from './Calculator/CalculatorBody';
+// import CalculatorBody from './Calculator/CalculatorBody';
+
+import Axios from './axios/Axios';
 
 function App() {
   return (
     <div className="App">
-      <CalculatorBody />
+      {/* <CalculatorBody /> */}
+      <Axios />
     </div>
   );
 }

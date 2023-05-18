@@ -7,11 +7,7 @@ export default function Buttons(props) {
     <div className="row">
       <div className="d-flex flex-column coll col-lg-3 mt-4">
         <button
-          onClick={() =>
-            setDisplay(
-              display === '' ? '' : `${display} = ${eval(display).toString()}`
-            )
-          }
+          onClick={() => setDisplay(eval(display).toString())}
           value="="
           className="btn btn-primary mb-2 equal"
           style={{ height: '45%' }}

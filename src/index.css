@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+ul {
+  list-style-type: decimal !important;
+}
+
+.ans li {
+  list-style-type: lower-alpha;
+}
+
 @media (max-width: 991px) {
   .coll {
     flex-direction: row !important;
